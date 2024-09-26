@@ -12,41 +12,41 @@ fire==0.6.0
 
 #web
 fastapi==0.115.0
-uvicorn==0.30.6 #TODO
+uvicorn==0.30.6
 functions-framework==3.8.1
 
 #datascience
-jupyter==1.0.0
-pandas==1.5.0
+jupyter==1.1.1
+pandas==2.2.3
 numpy==1.23.3
-scikit-learn==1.1.2
-matplotlib==3.6.0
-seaborn==0.12.0
-dask==2022.9.2
+scikit-learn==1.5.2
+matplotlib==3.9.2
+seaborn==0.13.2
+dask==2024.9.0
 
 #geo
-geopy==2.2.0
+geopy==2.4.1
 
 #MLOps
-gradio==3.4.1
-streamlit==1.13.0
-protobuf==3.16.0
-onnx==1.12.0
+gradio==4.44.0
+streamlit==1.38.0
+protobuf==5.28.2
+onnx==1.16.2
 databricks==0.2
-databricks-cli==0.17.3
-databricks-sql-connector==2.1.0
-mlflow==2.0.1
+databricks-cli==0.18.0
+databricks-sql-connector==3.4.0
+mlflow==2.16.2
 
 ##MLOps-HuggingFace
-transformers==4.22.2
-sentencepiece==0.1.97
-datasets==2.5.2
-tokenizers==0.12.1
+transformers==4.45.1
+sentencepiece==0.2.0
+datasets==3.0.1
+tokenizers==0.20.0
 
 #deep learning
-torch
-torchvision
-tensorflow
+torch==2.4.1
+torchvision==0.19.1
+tensorflow==2.17.0
 
 #openai whisper
 git+https://github.com/openai/whisper.git
