@@ -1,0 +1,57 @@
+#wheel
+wheel==0.44.0
+
+#devops
+black==24.8.0
+click==8.1.7
+pytest==8.3.3
+pytest-cov==5.0.0
+pylint==3.3.1
+boto3==2.49.0
+fire==0.6.0
+
+#web
+fastapi==0.115.0
+uvicorn==0.30.6 #TODO
+functions-framework==3.8.1
+
+#datascience
+jupyter==1.0.0
+pandas==1.5.0
+numpy==1.23.3
+scikit-learn==1.1.2
+matplotlib==3.6.0
+seaborn==0.12.0
+dask==2022.9.2
+
+#geo
+geopy==2.2.0
+
+#MLOps
+gradio==3.4.1
+streamlit==1.13.0
+protobuf==3.16.0
+onnx==1.12.0
+databricks==0.2
+databricks-cli==0.17.3
+databricks-sql-connector==2.1.0
+mlflow==2.0.1
+
+##MLOps-HuggingFace
+transformers==4.22.2
+sentencepiece==0.1.97
+datasets==2.5.2
+tokenizers==0.12.1
+
+#deep learning
+torch
+torchvision
+tensorflow
+
+#openai whisper
+git+https://github.com/openai/whisper.git
+
+#Text Tools
+#yake
+yake==0.4.8
+wikipedia==1.4.0
