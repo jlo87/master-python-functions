@@ -3,7 +3,7 @@
 Build a click-based CLI that uses the logic in mathcode.py.
 """
 import click  # type: ignore
-from funcLog.mathcode import add, subtract, multiply, divide
+from funcLog.mathCode import add, subtract, multiply, divide
 
 
 # Create subcommands
