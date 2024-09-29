@@ -1,6 +1,7 @@
+#!/usr/bin/env python3
 """Use Click to build out a CLI for the wiki_news_keywords.py library."""
 
-import click
+import click  # type: ignore
 from funcLog import wiki_news_keywords as wnk
 
 
