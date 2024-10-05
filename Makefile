@@ -4,13 +4,13 @@ install:
 	#force install latest whisper
 	pip install --upgrade --no-deps --force-reinstall git+https://github.com/openai/whisper.git
 test:
-	python -m pytest -vv --cov=main --cov=mylib --cov=funcLog --cov=funcLambda test_*.py
+	python -m pytest -vv --cov=main --cov=mylib --cov=funcLog --cov=gcpFunc test_*.py
 
 format:	
-	black *.py funcLog/*.py funcLambda/*.py
+	black *.py funcLog/*.py gcpFunc/*.py
 
 lint:
-	pylint --disable=R,C --ignore-patterns=test_.*?py *.py funcLog/*.py funcLambda/*.py
+	pylint --disable=R,C --ignore-patterns=test_.*?py *.py funcLog/*.py gcpFunc/*.py
 
 container-lint:
 	docker run --rm -i hadolint/hadolint < Dockerfile
