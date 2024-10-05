@@ -52,6 +52,6 @@ tensorflow==2.17.0
 git+https://github.com/openai/whisper.git
 
 #Text Tools
-#yake
+#yake keyword extractor
 yake==0.4.8
 wikipedia==1.4.0
